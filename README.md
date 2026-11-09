@@ -1,3 +1,5 @@
+#  Social Engineering & MFA Recovery
+
 ## 🎫 The Ticket
 
 It's 26 October 2026, my fourth week on the security team at Northwind Health. The Help Desk has escalated an MFA reset request after an agent became concerned about the caller.
