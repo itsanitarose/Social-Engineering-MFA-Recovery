@@ -107,7 +107,7 @@ My goal is to make decisions that are supported by evidence, aligned with organi
 | [03. Help Desk Call Handling](document/03.%20Help%20Desk%20Call%20Handling.md) | Call flow, verification checks and what to say to the caller. |
 | [04. Identity Verification Methods](document/04.%20Identity%20Verification%20Methods.md) | Strong and weak verification methods. |
 | [05. Privileged Account Recovery](document/05.%20Privileged%20Account%20Recovery.md) | 5 step recovery process and additional safeguards. |
-| [06. Digging Deeper](document/06.%20Digging%20Deeper.md) | Follow-up actions if the call was an impersonation attempt. |
+| [06. Digging Deeper](document/06.%20Digging%20Deeper.md) | Follow up actions if the call was an impersonation attempt. |
 
 <br>
 
