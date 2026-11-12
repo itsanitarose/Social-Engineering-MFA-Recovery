@@ -1,7 +1,7 @@
 
 # IAM Skills Map
 
-**Northwind Health | IAM: MFA Recovery & Identity Verification**
+**Northwind Health | MFA Recovery & Identity Verification**
 
 This map links IAM Analyst job requirements to the work completed in this case study.
 
