@@ -38,15 +38,17 @@ The warning signs raised concerns but did not confirm impersonation.
 
 <br>
 
+## What's the Risk?
 
-The Help Desk has already identified several warning signs. The caller knows personal details about Dana, but some of the information doesn't match what the organisation has on record.
+Dana's account can approve payments and access the bank portal. An unauthorised MFA reset could give an attacker control of both.
 
-And this isn't just any account. Dana can approve payments and access the bank portal.
-
+The Help Desk has already spotted warning signs. The caller knows personal details about Dana, but some of the information doesn't match what the organisation has on record.
 
 <br>
 
-## My Investigation
+## The Investigation
+
+At first, this looked like an urgent MFA recovery request. But the caller's behaviour and conflicting information made me question whether it was genuine. I looked into how an attacker might manipulate the help desk's recovery process.
 
 Five questions guided my investigation:
 
@@ -58,12 +60,12 @@ Five questions guided my investigation:
 
 <br>
 
-## What I Noticed
+## What I Found
 
 Three details immediately concerned me.
 
 | Area | Finding |
-|:-----|:--------|
+|---|---|
 | **Identity verification** | The caller knew personal details but declined further verification and asked the agent not to call back. |
 | **Conflicting information** | The UK calling number didn't match HR records, and Dana's Austin meetings raised questions about her travel story. |
 | **Privileged access** | An unauthorised MFA reset could expose payment approvals and the bank portal. |
@@ -72,58 +74,44 @@ None of these details proves the caller was an impersonator. But together, they 
 
 <br>
 
-## My Approach
+## Decisions & Recommendations
 
-At first, this looked like an urgent MFA recovery request. But the caller's suspicious behaviour and conflicting information made me question whether the request was genuine.
+**Do first: no independent identity verification, no MFA reset.**
 
-I wanted to understand what was really happening, so I started looking into social engineering and how an attacker might manipulate the help desk's recovery process.
+My experience in billing and payment support taught me that verification comes before discussing or changing account information. If a customer couldn't be verified, I couldn't proceed, however urgent the request sounded. I would apply the same rule here. The agent should pause the reset, explain that additional checks are required and use an independently verified method rather than the details given during the call.
 
-From there, I assessed the warning signs, questioned whether the information provided really proved identity and developed safeguards that protect privileged accounts while allowing legitimate employees to regain access.
+**Improve the process**
 
-<br>
-
-## Top Priority
-
-**No independent identity verification, no MFA reset.**
-
-My experience in billing and payment support taught me that verification comes before discussing or changing account information. If a customer couldn't be verified, I couldn't proceed, regardless of how urgent the request sounded.
-
-I would apply the same principle here. The agent should pause the reset, explain that additional checks are required and use an independently verified  method rather than relying on the details provided during the call.
+- Add an escalation button to the Help Desk ticketing system for suspicious identity and MFA recovery requests. It could capture the ticket details, record the warning signs and route the case to Security or IAM.
+- If the organisation adopts AI agents, this structured information could help them identify recurring patterns, highlight missing evidence and support investigations. Human oversight should remain essential, especially for privileged account recovery.
 
 <br>
 
-
-## What I Learned
+## Looking Back at the Review
 
 Social engineering fascinates me because it targets something more complicated than technology: **human judgement**. It is the art of manipulation, using emotions, trust, authority and urgency to influence decisions.
 
 In this case, the caller wasn't trying to break MFA. They were trying to influence the person with the power to reset it, making an exception seem reasonable.
 
-This reinforced two important lessons for me.
+This reinforced two lessons for me:
 
-**IAM goes beyond granting or restoring access.** It also means recognising suspicious behaviour, examining the evidence and making decisions that protect both the account and the business.
-
-**How we communicate a security boundary matters just as much as the boundary itself.** Until someone's identity is verified, we cannot assume they are who they say they are, but that doesn't mean treating them with suspicion or making them feel judged. We can acknowledge their situation, explain the next steps and remain firm about verification.
+- **IAM goes beyond granting or restoring access.** It also means recognising suspicious behaviour, examining the evidence and making decisions that protect both the account and the business.
+- **How we communicate a security boundary matters as much as the boundary itself.** Until someone's identity is verified, we cannot assume they are who they say they are, but that doesn't mean treating them with suspicion or making them feel judged. We can acknowledge their situation, explain the next steps and remain firm about verification.
 
 Understanding the attacker's mindset helps me recognise manipulation. A defender's responsibility is to protect access without losing professionalism.
 
 <br>
 
-## What I'd Improve
-
-**Improving the process**
-
-I'd introduce a dedicated escalation button within the Help Desk ticketing system for suspicious identity and MFA recovery requests. It could automatically capture the ticket details, document the warning signs and route the case to Security or IAM.
-
-If the organisation adopts AI agents, this structured information could also help them identify recurring patterns, highlight missing evidence and support investigations. Human oversight would remain essential, especially for decisions involving privileged account access recovery.
-
-**Developing my approach**
+## What I Will Improve Next Time
 
 I want to deepen my understanding of security governance and recognised frameworks, so my risk assessments and recommendations are not based on judgement alone.
 
 My goal is to make decisions that are supported by evidence, aligned with organisational policies and easier to explain, justify and audit.
 
+
 <br>
+
+
 
 ## Explore the Investigation
 
@@ -139,6 +127,8 @@ My goal is to make decisions that are supported by evidence, aligned with organi
 <br>
 
 ---
+
+
 
 [← Week 3: AI Agent Security Review](https://github.com/itsanitarose/IAM-AI-Agent-Security-Review) · [All Case Studies](https://github.com/itsanitarose/IAM-Case-Studies) · [Week 5: SAML SSO Troubleshooting →](https://github.com/itsanitarose/IAM-SAML-SSO-Troubleshooting)
 
