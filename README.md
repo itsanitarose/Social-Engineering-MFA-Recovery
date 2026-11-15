@@ -8,7 +8,7 @@ It's 26 October 2026, my fourth week on the security team at Northwind Health. T
 
 The IT Manager writes:
 
-> The help desk escalated a call to us. Someone says she's Dana Whitfield, our VP of Finance, locked out while travelling, and wants her MFA reset to a new phone. The agent sounded uneasy, but she gave him everything he asked for. **What should have happened, and how do we fix our process?**
+> The help desk escalated a call to us. Someone says she's Dana Whitfield, our VP of Finance, locked out while travelling, and wants her MFA reset to a new phone. The agent sounded uneasy, but she gave him everything he asked for. What should have happened, and how do we fix our process?
 
 <br>
 
