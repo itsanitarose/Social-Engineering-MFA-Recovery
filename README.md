@@ -12,6 +12,33 @@ The IT Manager writes:
 
 <br>
 
+
+**Supporting Information:** [Help Desk Call Notes](document/01.Source%20Data.md)
+
+<br>
+
+
+<table>
+<tr>
+<td>
+
+**🛡️ Decision**
+
+**Do not reset MFA until the caller's identity has been independently verified.**
+
+The caller refused further verification, asked the agent not to call back and provided information that conflicted with company records.
+
+Because the account can approve payments and access the bank portal, I recommended pausing the reset and following the approved verification process.
+
+The warning signs raised concerns but did not confirm impersonation.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+
 The Help Desk has already identified several warning signs. The caller knows personal details about Dana, but some of the information doesn't match what the organisation has on record.
 
 And this isn't just any account. Dana can approve payments and access the bank portal.
